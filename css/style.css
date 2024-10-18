@@ -96,7 +96,23 @@ hr {
 
 /**********************Media queries**************/
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 376px) {
+    #lead_paragraph {
+        margin-left: 24px;
+        height: 9px;
+        font-size: 1.1rem;
+        color: #9c9d9b;
+}
+    .logo-name {
+        position: absolute;
+        top: 45px;
+        left: 45px;
+        background-color: #32c086;
+        font-size: 11px;
+        padding: 5px;
+}
+}
+@media screen and (min-width:378px) and (max-width: 576px) {
     #lead_paragraph {
         margin-left: 24px;
         height: 22px;
